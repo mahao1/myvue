@@ -1,0 +1,172 @@
+input {
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+.todolist {
+	text-align: left;
+	padding: 20px;
+  background: #eee;
+}
+
+.todolist h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  color: #585858;
+}
+
+.todolist h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  color: #585858;
+}
+
+.todolist .list p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.todolist .list p input {
+	margin-right: 5px;
+}
+
+.list_ul {
+  width: 400px;
+}
+
+.todolist .list p label {
+	margin-right: 10px;
+}
+
+.list_ul .li1 {
+	padding: 0 10px;
+  height: 40px;
+	line-height: 40px;
+	position: relative;
+	border: 1px solid transparent;
+}
+
+.list_ul li .type-span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	margin: 10px 10px 0 0;
+	float: left;
+}
+
+.list_ul li .close {
+	position: absolute;
+	color: #f00;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	top: 0;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+.list_ul li:hover {
+	border: 1px solid #09f;
+}
+
+.list_ul li:hover .close {
+	display: block;
+}
+
+.ipt-text {
+	box-sizing: border-box;
+	width: 400px;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	margin-bottom: 10px;
+  box-shadow: 0 5px 5px 0 #888;
+}
+
+.list .num_color {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.radio_change{
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+/*改变单选框样式s*/
+.radio_change input[type="radio"]{
+  width: 16px;
+  height: 16px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.radio_change span{
+  margin-left: 5px;
+}
+.radio_change label{
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.radio_change input+label::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: #999;
+  border-radius: 50%;
+}
+.radio_change input:checked+label{
+  border: 1px solid #3FB783;
+}
+.radio_change input:checked+label::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: #3FB783;
+  border-radius: 50%;
+}
+/*改变单选框样式e*/
+
+.list_ul li .status-end {
+	background: #42B983;
+}
+
+.list_ul li div {
+	display: block;
+  overflow: hidden;
+}
+
+.list_ul li.eidting div {
+	display: none;
+}
+
+.list_ul li .text2 {
+	height: 40px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	width: 80%;
+	display: none;
+}
+
+.list_ul li.eidting .text2 {
+	display: block;
+}

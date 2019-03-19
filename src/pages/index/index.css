@@ -1,0 +1,21 @@
+#index{
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 10px 10px 30px;
+}
+
+.box{
+  width: 100%;
+  height: 800px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
+
+.english{
+
+}
+.share{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

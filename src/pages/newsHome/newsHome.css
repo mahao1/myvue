@@ -1,0 +1,41 @@
+.main-content{
+  width: 100%;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+}
+.left-content{
+  float: left;
+  height: 300px;
+  width: 600px;
+}
+
+.right-content{
+  float: right;
+  width: 540px;
+  height: 300px;
+  background: #f8f8f8;
+}
+.today-news{
+  float: left;
+  margin: 20px 0 0 40px;
+}
+.today-news .title{
+  font-size: 20px;
+  color: #555;
+}
+.today-news .title em{
+  color: #f34540;
+}
+.today-news ul{
+  margin-top: 14px;
+}
+.today-news li{
+  width: 325px;
+  height: 38px;
+  line-height: 38px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.waterfall{
+  margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+#module{
+  margin-top: 20px;
+	box-sizing: border-box;
+}
+#module h2{
+  color: #585858;
+}
+.module{
+  margin-top: 20px;
+  background: #eee;
+  padding: 20px;
+  overflow: hidden;
+}
+.module h2{
+  margin-bottom: 10px;
+}
+.module .box{
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
